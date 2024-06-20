@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Lucy Said Ok';
+            src: url('fonts/Lucy Said Ok.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Lucy Said Ok', Times, serif;
+            font-size: 4em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi quos accusantium, est repellendus dicta saepe deleniti culpa ut, explicabo voluptate ad odit sint et, consequuntur atque iste qui minima.</p>
+</body>
+</html>
