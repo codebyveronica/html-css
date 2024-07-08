@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis fugiat nam, harum minima dolore quisquam in, dolor impedit aspernatur debitis dolores saepe temporibus assumenda ad obcaecati nemo hic? Minus!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nihil assumenda accusantium exercitationem vel iure cupiditate sed nam! Ab harum alias corporis rerum enim nisi, vero sapiente. Harum, laborum ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat pariatur doloremque vero natus reprehenderit suscipit exercitationem facilis atque earum ipsam quos voluptatem quia vitae illum nostrum, quas sed ullam eaque?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" class="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto perspiciatis, iste maiores assumenda inventore ratione eos consectetur, ducimus quo vitae iusto eveniet sed rerum! Porro totam est illum consequatur vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis consequuntur pariatur impedit, quam distinctio quidem fugit dolor blanditiis optio. Vitae illo omnis asperiores soluta dolorum libero ipsum sapiente eum?</p>
+</body>
+</html>
