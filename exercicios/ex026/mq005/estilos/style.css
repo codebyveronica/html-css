@@ -20,8 +20,22 @@ h1 {
     text-align: center;
 }
 
-menu {
+.material-symbols-outlined {
+    background-color: rgb(49, 49, 49);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 ul {
